@@ -1,0 +1,58 @@
+.hero {
+  background: #f5f5f5;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero-buttons .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #003280;
+}
+
+.gallery {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.about-description {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.slideshow {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out;
+  display: block;
+}
