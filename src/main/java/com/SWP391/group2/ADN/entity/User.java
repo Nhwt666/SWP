@@ -29,4 +29,10 @@ public class User {
 
     @Column(name = "phone_number", length = 12)
     private String phoneNumber;
+
+    @Enumerated(EnumType.STRING)
+    private Role role;
+
+    @Column(name = "Address", nullable = false)
+    private String address;
 }
